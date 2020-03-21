@@ -5,7 +5,7 @@ def TwoDArray(size):
     return arr
 
 def printMatrix(array):
-    for row in array:
+    for row in array:`
         for element in ''.join(row):
             print(element, end=" ")
         print("")
